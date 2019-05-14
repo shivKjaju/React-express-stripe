@@ -2,7 +2,7 @@ import React from "react";
 import StripeCheckout from "react-stripe-checkout";
 import axios from "axios";
 const Checkout = () => {
-  const publishableKey = 'pk_test_BK3QXLBoX4UdTiHBDyO8pqbG00WpOnqRWj';
+  const publishableKey = 'YOUR_STRIPE_PUBLISHABLE_KEY';
    
   const onToken = token => {
     const body = {
